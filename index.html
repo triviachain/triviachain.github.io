@@ -1,0 +1,23 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src=script.js></script>
+
+
+<document>
+    <head>
+        <title>Trivia!</title>
+        <link rel="icon" href="https://static.thenounproject.com/png/21610-200.png">
+        <link rel= "stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <p align="center" id="welcome-msg">Welcome to trivia!<br> You have 10 seconds to answer each general knowledge question you are prompted.<br>Good luck!</p>
+        <div align="center">
+        <button margin-top=5% onclick="begin()" id="beginbtn">Begin!</button>
+        <button margin-top=5% onclick="poseQuestion()" disabled=true id="next">Next Question</button>
+        <p id="timer" hidden=true></p>
+        </div>
+        <p align="center" id="questionframe"></p>
+        <div align="center" id="btnframe"></div>
+    </body>
+</document>
+
